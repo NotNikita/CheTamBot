@@ -1,8 +1,8 @@
 import telebot
 from telebot import types
+from secret_stuff import token
 
-
-bot = telebot.TeleBot("1238303279:AAGe-7h_GKNOn-OdbSmZFVKxWG4bIcWtDgM")
+bot = telebot.TeleBot(token)
 users_id = []
 
 
